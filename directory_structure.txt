@@ -1,0 +1,28 @@
+[DIR] myproject
+    manage.py
+    [DIR] blog
+        admin.py
+        apps.py
+        models.py
+        tests.py
+        urls.py
+        views.py
+        __init__.py
+        [DIR] migrations
+            0001_initial.py
+            __init__.py
+        [DIR] static
+            [DIR] css
+                blog.css
+        [DIR] templates
+            [DIR] blog
+                base.html
+                [DIR] post
+                    detail.html
+                    list.html
+    [DIR] myproject
+        asgi.py
+        settings.py
+        urls.py
+        wsgi.py
+        __init__.py
